@@ -38,6 +38,10 @@ function App() {
     }else{
       setChoiceOne(card)
     }
+    setDisabled(true)
+    setTimeout(() => {
+      setDisabled(false)
+    }, 200);
   }
 
   const reset = ()=>{
